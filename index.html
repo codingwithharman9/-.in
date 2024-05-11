@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Technology Studio</title>
+  <link rel="stylesheet" href="style.css">
+  <style>  
+  
+  
+  
+  
+  
+.fa-3x{
+  border:2px solid blue ;
+  border-radius:20px ;
+  padding:10px 10px ;
+  color:white;
+  background-color:blue ;
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  .red-theme {
+            background-color: red;
+            color: white;
+        }
+        .blue-theme {
+            background-color: blue;
+            color: white;
+        }
+        .pink-theme {
+            background-color: pink;
+            color: white;
+        }
+        .green-theme {
+            background-color: green;
+            color: white;
+        }
+  button{
+    border:2px solid lawngreen;
+    padding:20px ;
+    border-radius:20px ;
+    width:100%;
+    background-color:lawngreen;
+  }
+  button:hover{
+    background-color:blue;
+  }
+    div.scrollmenu1
+    {
+  background-color:white;
+  overflow: auto;
+  height:400px;
+  white-space: nowrap;
+}
+
+div1.scrollmenu1 a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px; 
+  text-decoration: none;
+}
+
+div1.scrollmenu1 a:hover {
+background-color:blue;
+}
+  
+  
+  
+  
+  
+  
+   div.scrollmenu
+    {
+  background-color: #333;
+  overflow: auto;
+  height:80px;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px; 
+  
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+background-color:blue;
+}
+
+.btn9 {
+  background-color: #ff9900;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn9:hover {
+  background-color:blue;
+}
+  </style>
+</head>
+<body>
+<p id="datetime"></p>
+
+<script>
+function updateTime() {
+  var dt = new Date();
+  var hours = dt.getHours();
+  var minutes = dt.getMinutes();
+  var seconds = dt.getSeconds();
+  
+  // Add leading zero if needed
+  minutes = minutes < 10 ? '0' + minutes : minutes;
+  seconds = seconds < 10 ? '0' + seconds : seconds;
+  
+  var timeString = hours + ':' + minutes + ':' + seconds;
+  var dateString = dt.toDateString();
+  
+  document.getElementById("datetime").innerHTML = timeString + ' ' + dateString;
+}
+
+// Update time every second
+setInterval(updateTime, 1000);
+</script>
+
+  <p align="right">
+  <a href="form.html" class="fa-3x">Sign In</a>
+  </p>
+
+  
+  <font size=10px>
+  <a href="5.html">☰</a>   
+  </font>
+  <font color=blue>
+  <font size=5>
+  <marquee behavior="" direction="">Coding With Harman</marquee>
+  </font>
+  </font>
+  <br>
+  <br>
+  <input type="search" placeholder="  🔎 Search..........">
+  <br>
+  <div class="scrollmenu">
+    <nav>
+    <ul>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Youtube Content">YouTube Content</a></li>
+      <li><a href="form.html">Sign up</a>
+      </li>
+       <li><a href="#Course Store">Course store</a>
+      </li>
+    </ul>
+  </nav>
+  <br>
+</div>
+</tt>
+<img src="1.png" alt="" height="100%" width="100%">
+<section id="About">
+    <h2>About</h2>
+  <p>Coding With Harman is a company dedicated to bringing your vision to life.You learn new skill like computer languages and designing services provide to others and earn money. I am provide computer languages courses to new website designs and also provide paid services to build or making websites.Your interest is help to achieve goals. </p> 
+</section>
+<section id="Services">
+    <h2>Services</h2>
+    <img src="wd.jpg" alt="" height="100%"
+    width="100%">
+    <h2>Development New Skill With HTML</h2>
+    <p>I am provide best website for any work purpose. Professional website design for work or business. So if you can interested to creat our website to contact them.</p>
+    
+      
+    
+  <img src="HC.jpeg" alt="html" height="400px"
+  width="100%">
+    
+  <p>help of computer languages like html and css for frontent more attractive vision s,So Technology Studio provide these languages courses and very less amount with deep information.</p>
+  <img src="H.jpeg" alt="html" height="400px"
+  width="100%">
+  <h2>Development New Skill with HTML</h2>
+  <p>this course develop new skill and you independent to make own new websites and knowledge about computer languages and how its work.HTML use as a first step to making website because this is design a website structure and more details in our course.</p>
+  <img src="CS.png" alt="css" height="400px" width="100%">
+  <h2>Development New Skill With CSS</h2>
+  <p>This computer language help to develop new skill in the starting website designer or website developer carrier.This language is the 2nd step of website frontend designing.This is help to create a professional website with colourful effective more about in our course.</p>
+</section>
+<section id="Youtube Content">
+  <h2>YouTube Content</h2>
+  <iframe width="100%" height="370px" src="https://www.youtube.com/embed/CTrobrLKbIs?si=IpOi3X9-XTd7Fjyc" title="YouTube video player" frameborder="5" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section id="Course Store">
+  <div class="scrollmenu1">
+    <img src="thumnail and.png" alt="" height="250px" width="100%">
+    <h1>Price = 0</h1>
+    <a href="1.html" class="btn88"><button>Buy</button></a>
+    <br>
+  </div>
+</section>
+<br>
+  <footer>
+    
+       © 2024 Coding With Harman. All rights reserved.
+    
+    
+  </footer>
+  
+  </tt>
+</body>
+</html>

@@ -1,0 +1,78 @@
+.container{
+  background-color:rgb(25,25,25);
+  border: 2px solid rgb(25,25,25);
+  border-radius:px ;
+}
+nav ul li{
+  display:inline ;
+  padding-right: 20px ;
+}
+  a{
+    text-decoration: none ;
+    color:black;
+  }
+
+  /* unecerssary */
+
+    body {
+
+        background-color:rgb();
+        height:100%;
+    }
+    /* unecerssary */
+
+    .btn{
+      color: white ;
+      border: 2px solid black;
+      border-radius: 10px;
+      background-color: lawngreen;
+      padding:10px 15px;
+      margin-bottom:20px;
+    }
+    p{
+      font-size:25px;
+    }
+    h2 {
+      text-align: center;
+      color: red;
+    }
+    h3{
+      text-align:center ;
+      color: red;
+    }
+    h4{
+      text-align: center;
+      color:red ;
+    }
+    h5{
+      text-align: center;
+      color: red;
+    }
+    footer{
+      color:white;
+      background-color: black;
+      padding:10px 10px;
+      text-align:center;
+    }
+    dt{
+      font-size:25px ;
+    }
+    dd{
+      font-size:25px ;
+    }
+    img{
+      border-radius: px ;
+      text-align:center;
+    }
+    input[type=search], input[type=password], input[type=email]{
+
+  width: 100%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(25,25,25);
+  box-sizing: border-box;
+  border-radius:15px ;
+}
+  
